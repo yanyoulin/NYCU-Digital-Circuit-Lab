@@ -1,0 +1,275 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Thu Dec 28 18:33:42 2023
+| Host         : LAPTOP-PT3593SA running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab10_control_sets_placed.rpt
+| Design       : lab10
+| Device       : xc7a35ti
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   197 |
+|    Minimum number of control sets                        |   197 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   260 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   197 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |    19 |
+| >= 8 to < 10       |    16 |
+| >= 10 to < 12      |    15 |
+| >= 12 to < 14      |     5 |
+| >= 14 to < 16      |     3 |
+| >= 16              |   136 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           29 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             763 |          394 |
+| Yes          | No                    | No                     |              79 |           37 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             408 |          151 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------+----------------------------------------+---------------------------------+------------------+----------------+--------------+
+|      Clock Signal      |              Enable Signal             |         Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------+----------------------------------------+---------------------------------+------------------+----------------+--------------+
+|  clk_divider0/vga_clk  |                                        |                                 |                1 |              1 |         1.00 |
+|  clk_divider0/vga_clk  |                                        | vs0/snake_clock2                |                2 |              2 |         1.00 |
+|  P_next_reg[2]_i_2_n_0 |                                        |                                 |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/shell_gone_reg[0]           |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/reset_n_0[0]                |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/reset_n[0]                  |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/v_count_reg_reg[7]_2        |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/music_reg_0                 |                5 |              6 |         1.20 |
+|  clk_IBUF_BUFG         | food_x[9]_i_2_n_0                      | food_x                          |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/food_gone_reg[0]            |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/P_reg[1][0]                 |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG         | shell_x[9]_i_2_n_0                     | shell_x                         |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[3][0]      |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[2]_0[0]    |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         | food_y                                 |                                 |                4 |              7 |         1.75 |
+|  clk_IBUF_BUFG         | shell_y                                |                                 |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[2]_3[0]    |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[0][0]      |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[3]_2[0]    |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[1][0]      |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[3]_0[0]    |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_length_reg[2]_1[0]    |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/reset_n_1[0]                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG         |                                        | vs0/reset_n_2[0]                |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG         | score[7]_i_2_n_0                       | score                           |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG         | highest_score                          |                                 |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG         |                                        | clk_divider0/counter[7]_i_1_n_0 |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG         | snake_x[3][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[0][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[1][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[4][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[2][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[5][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | whistle_baby_x[8]_i_2_n_0              | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[6][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[7][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[8][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_IBUF_BUFG         | snake_x[9][9]_i_1_n_0                  | snake_clock1                    |                3 |              9 |         3.00 |
+|  clk_divider0/vga_clk  | vs0/v_count_reg[9]_i_2_n_0             | vs0/v_count_reg[9]_i_1_n_0      |                5 |             10 |         2.00 |
+|  clk_IBUF_BUFG         | snake_y[3][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[0][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[1][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[4][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[7][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[8][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[6][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/v_count_reg_reg[6]_0[0]     |                2 |             10 |         5.00 |
+|  clk_IBUF_BUFG         | snake_y[5][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_y[9][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | cstone_x[9]_i_1_n_0                    |                                 |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         | snake_length                           |                                 |                6 |             10 |         1.67 |
+|  clk_IBUF_BUFG         | snake_y[2][9]_i_1_n_0                  | snake_clock1                    |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG         |                                        | vs0/SR[0]                       |                4 |             11 |         2.75 |
+|  clk_IBUF_BUFG         | vs0/pixel_tick                         | vs0/mod2_reg_reg_0[0]           |               10 |             12 |         1.20 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_0_63_0_0_i_1_n_0         |                                 |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_0_15_0_0_i_1_n_0         |                                 |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG         | ram24/RAM_reg_0_63_0_0_i_1__0_n_0      |                                 |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG         | ram30/RAM_reg_0_63_0_0_i_1__1_n_0      |                                 |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG         | btn_db1/P_reg[0]                       |                                 |                8 |             14 |         1.75 |
+|  clk_IBUF_BUFG         | btn_db1/P_reg[0]                       | btn_db1/P_reg[0]_0              |                5 |             14 |         2.80 |
+|  clk_divider0/vga_clk  | vs0/pixel_tick                         | vs0/h_count_reg[9]_i_1_n_0      |                6 |             15 |         2.50 |
+|  clk_IBUF_BUFG         |                                        | btn_db0/clear                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG         |                                        | btn_db1/clear                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG         |                                        | btn_db2/clear                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG         |                                        | btn_db3/clear                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG         | stone_y1                               |                                 |                9 |             23 |         2.56 |
+|  clk_IBUF_BUFG         | ram19/RAM_reg_0_127_0_0_i_1__1_n_0     |                                 |                6 |             24 |         4.00 |
+|  clk_IBUF_BUFG         | ram24/RAM_reg_0_127_0_0_i_1__2_n_0     |                                 |                6 |             24 |         4.00 |
+|  clk_IBUF_BUFG         | ram18/RAM_reg_0_127_0_0_i_1__0_n_0     |                                 |                6 |             24 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_0_127_0_0_i_1_n_0        |                                 |                6 |             24 |         4.00 |
+|  clk_IBUF_BUFG         | show_cstone                            | cstone_clock[31]_i_1_n_0        |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG         | btn_db1/speed1179_out                  | snake_clock[0]_i_1_n_0          |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG         | music_reg_n_0                          | snake_clock1                    |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG         |                                        | vs0/h_count_reg_reg[7]_1        |               23 |             36 |         1.57 |
+|  clk_IBUF_BUFG         |                                        | vs0/h_count_reg_reg[8]_2        |               17 |             36 |         2.12 |
+|  clk_IBUF_BUFG         |                                        | vs0/h_count_reg_reg[2]_rep_1    |               17 |             36 |         2.12 |
+|  clk_IBUF_BUFG         |                                        | vs0/h_count_reg_reg[2]_rep_2    |               20 |             36 |         1.80 |
+|  clk_IBUF_BUFG         |                                        |                                 |               27 |             38 |         1.41 |
+|  clk_IBUF_BUFG         | btn_db3/P_reg[0]                       | snake_clock1                    |               19 |             42 |         2.21 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_4864_5119_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_768_1023_0_0_i_1_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_0_255_0_0_i_1_n_0        |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_1024_1279_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_1792_2047_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_1536_1791_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_2048_2303_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_1280_1535_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_3072_3327_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_2816_3071_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_256_511_0_0_i_1_n_0      |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_2560_2815_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_2304_2559_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_3328_3583_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_4096_4351_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_3840_4095_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_4352_4607_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_3584_3839_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram23/RAM_reg_256_511_0_0_i_1__7_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram23/RAM_reg_0_255_0_0_i_1__7_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram23/RAM_reg_768_1023_0_0_i_1__7_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram23/RAM_reg_512_767_0_0_i_1__7_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_4608_4863_0_0_i_1_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram24/RAM_reg_0_255_0_0_i_1__8_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram24/RAM_reg_256_511_0_0_i_1__8_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram30/RAM_reg_0_255_0_0_i_1__9_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram30/RAM_reg_256_511_0_0_i_1__9_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_1024_1279_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_0_255_0_0_i_1__0_n_0      |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_1280_1535_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_1536_1791_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_1792_2047_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_2304_2559_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_2560_2815_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_256_511_0_0_i_1__0_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_3328_3583_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_2816_3071_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram22/RAM_reg_768_1023_0_0_i_1__6_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram22/RAM_reg_0_255_0_0_i_1__6_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram22/RAM_reg_1024_1279_0_0_i_1__6_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram22/RAM_reg_256_511_0_0_i_1__6_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram22/RAM_reg_512_767_0_0_i_1__6_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_3584_3839_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_2048_2303_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_512_767_0_0_i_1__0_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_3072_3327_0_0_i_1__0_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram1/RAM_reg_768_1023_0_0_i_1__0_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_1024_1279_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_0_255_0_0_i_1__1_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_1280_1535_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_2304_2559_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_2048_2303_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_1536_1791_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_1792_2047_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_2816_3071_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_2560_2815_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_3072_3327_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_256_511_0_0_i_1__1_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_3584_3839_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_3328_3583_0_0_i_1__1_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_512_767_0_0_i_1__1_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram15/RAM_reg_768_1023_0_0_i_1__1_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_1792_2047_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_1536_1791_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_1024_1279_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_0_255_0_0_i_1__4_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_1280_1535_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_256_511_0_0_i_1__4_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_2048_2303_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_2304_2559_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_2560_2815_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_3072_3327_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_3328_3583_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_3584_3839_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_512_767_0_0_i_1__4_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_2816_3071_0_0_i_1__4_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram29/RAM_reg_768_1023_0_0_i_1__4_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_512_767_0_0_i_1__5_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_768_1023_0_0_i_1__5_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram18/RAM_reg_0_255_0_0_i_1__11_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram19/RAM_reg_0_255_0_0_i_1__10_n_0    |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram31/RAM_reg_512_767_0_0_i_1_n_0      |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_256_511_0_0_i_1__5_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_0_255_0_0_i_1__5_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram17/RAM_reg_1024_1279_0_0_i_1__5_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_0_255_0_0_i_1__2_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_2048_2303_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_1536_1791_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_1792_2047_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_1024_1279_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_1280_1535_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_2816_3071_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_2560_2815_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_256_511_0_0_i_1__2_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_3072_3327_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_2304_2559_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_3584_3839_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_768_1023_0_0_i_1__2_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_3328_3583_0_0_i_1__2_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram16/RAM_reg_512_767_0_0_i_1__2_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_1024_1279_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_0_255_0_0_i_1__3_n_0     |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_1280_1535_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_1792_2047_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_2048_2303_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_1536_1791_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_2304_2559_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_3328_3583_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_256_511_0_0_i_1__3_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_2816_3071_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_3072_3327_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_2560_2815_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_3584_3839_0_0_i_1__3_n_0 |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_512_767_0_0_i_1__3_n_0   |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         | ram28/RAM_reg_768_1023_0_0_i_1__3_n_0  |                                 |               12 |             48 |         4.00 |
+|  clk_IBUF_BUFG         |                                        | vs0/snake_clock2                |               32 |             62 |         1.94 |
+|  clk_IBUF_BUFG         |                                        | ram25/we                        |              212 |            324 |         1.53 |
+|  clk_IBUF_BUFG         | ram25/we                               |                                 |               84 |            336 |         4.00 |
++------------------------+----------------------------------------+---------------------------------+------------------+----------------+--------------+
+
+
