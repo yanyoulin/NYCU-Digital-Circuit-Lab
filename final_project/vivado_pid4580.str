@@ -1,0 +1,1100 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:05:29 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 4580
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Dec 28 16:09:09 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1200
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=18
+Scale size: 27
+OS font scaling: 150%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+Java executable: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	hpjssr
+User home directory: C:/Users/riann
+User working directory: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: C:/Users/riann/AppData/Roaming/Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: C:/Users/riann/AppData/Roaming/Xilinx/Vivado/2023.1/
+Vivado layouts directory: C:/Users/riann/AppData/Roaming/Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/vivado.log
+Vivado journal file: 	C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/vivado.jou
+Engine tmp dir: 	C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/.Xil/Vivado-4580-LAPTOP-PT3593SA
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent744 "C:\Users\riann\Downloads\fp_1227-20231228T080550Z-001\fp_1227\lab10\lab10.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_INSTALLVERSION: 2023.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.1/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.1/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\riann\Downloads\fp_1227-20231228T080550Z-001\fp_1227\lab10:LAPTOP-PT3593SA-2023-12-28週四_16-08-21.44
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.1/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.1
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.1\bin
+_RDI_CWD: C:\Users\riann\Downloads\fp_1227-20231228T080550Z-001\fp_1227\lab10
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 717 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\riann\Downloads\fp_1227-20231228T080550Z-001\fp_1227\lab10\lab10.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 724 MB. GUI used memory: 77 MB. Current time: 12/28/23, 4:09:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 74 MB. Current time: 12/28/23, 4:09:25 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Shlab_20/Desktop/fp_1224/lab10' since last save. 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+122672kb) [00:00:42]
+// [Engine Memory]: 1,027 MB (+925792kb) [00:00:42]
+// WARNING: HEventQueue.dispatchEvent() is taking  4288 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'. 
+// [Engine Memory]: 1,106 MB (+28231kb) [00:00:45]
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1493.918 ; gain = 401.418 
+// Project name: lab10; location: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 138 MB (+13221kb) [00:00:53]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1697 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+dismissDialog("Open Hardware Manager"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+// HMemoryUtils.trashcanNow. Engine heap size: 1,129 MB. GUI used memory: 82 MB. Current time: 12/28/23, 4:09:50 PM CST
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO 已關閉。 ECHO 已關閉。  ****** Xilinx hw_server v2023.1   **** Build date : May  7 2023 at 15:26:57     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO 已關閉。 ECHO 已關閉。   ******** Xilinx cs_server v2023.1.0   ****** Build date   : Apr 10 2023-23:59:24     **** Build number : 2023.1.1681142364       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1504.590 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43948A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+// [GUI Memory]: 157 MB (+13133kb) [00:01:16]
+// [Engine Memory]: 1,170 MB (+9875kb) [00:01:16]
+dismissDialog("Program Device"); // bq
+// Elapsed time: 1640 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // u
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1209 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bq
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab10 (lab10.v)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab10 (lab10.v), vs0 : vga_sync (vga_sync.v)]", 2, false, false, false, false, false, true); // E - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2296 ms.
+// [GUI Memory]: 175 MB (+9825kb) [00:28:53]
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6, true); // s - Node
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6); // s
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6, true, false, false, false, false, true); // s - Double Click - Node
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Fonts and Colors]", 10, false); // s
+// WARNING: HEventQueue.dispatchEvent() is taking  1759 ms.
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// [GUI Memory]: 206 MB (+23285kb) [00:29:11]
+dismissDialog("Settings"); // d
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,179 MB. GUI used memory: 119 MB. Current time: 12/28/23, 4:38:07 PM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectCodeEditor("lab10.v", 183, 266); // ad
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectCodeEditor("lab10.v", 220, 400); // ad
+selectCodeEditor("lab10.v", 285, 321); // ad
+selectCodeEditor("lab10.v", 290, 528); // ad
+selectCodeEditor("lab10.v", 93, 193); // ad
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// Elapsed Time for: 'L.f': 29m:48s
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp with file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/lab10.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 29m:52s
+// Elapsed time: 243 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 245 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Dec 28 16:43:26 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 16:43:26 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 205 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "Memory File", 4); // bd
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "cstone"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // m
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/sources_1/new/cstone.mem w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/sources_1/new/cstone.mem 
+// Elapsed Time for: 'L.f': 37m:40s
+// Elapsed Time for: 'L.f': 37m:41s
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, cstone.mem]", 24, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, cstone.mem]", 24, false, false, false, false, false, true); // E - Double Click
+selectCodeEditor("cstone.mem", 163, 15); // ad
+typeControlKey((HResource) null, "cstone.mem", 'v'); // ad
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 68 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab10.v", 1); // o
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L
+// Elapsed time: 66 seconds
+selectCodeEditor("lab10.v", 292, 561); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 283, 171); // ad
+selectCodeEditor("lab10.v", 321, 174); // ad
+selectCodeEditor("lab10.v", 290, 154); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 279, 419); // ad
+selectCodeEditor("lab10.v", 335, 445); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 222, 366); // ad
+selectCodeEditor("lab10.v", 309, 448); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// Elapsed time: 25 seconds
+selectCodeEditor("lab10.v", 438, 503); // ad
+selectCodeEditor("lab10.v", 324, 307); // ad
+selectCodeEditor("lab10.v", 276, 283); // ad
+selectCodeEditor("lab10.v", 325, 350); // ad
+selectCodeEditor("lab10.v", 310, 346); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// WARNING: HEventQueue.dispatchEvent() is taking  6276 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5096 ms. Increasing delay to 3000 ms.
+selectCodeEditor("lab10.v", 232, 442); // ad
+selectCodeEditor("lab10.v", 122, 441); // ad
+selectCodeEditor("lab10.v", 103, 434); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 91, 377); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 92, 394); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 242, 248); // ad
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+dismissDialog("Open Hardware Manager"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO 已關閉。 ECHO 已關閉。  ****** Xilinx hw_server v2023.1   **** Build date : May  7 2023 at 15:26:57     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output: ECHO 已關閉。 ECHO 已關閉。   ******** Xilinx cs_server v2023.1.0   ****** Build date   : Apr 10 2023-23:59:24     **** Build number : 2023.1.1681142364       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1788.770 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A43948A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bq
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq
+// Elapsed time: 47 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // I
+selectCodeEditor("lab10.v", 901, 432); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 76, 558); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// WARNING: HEventQueue.dispatchEvent() is taking  3628 ms.
+selectCodeEditor("lab10.v", 69, 615); // ad
+selectCodeEditor("lab10.v", 768, 407); // ad
+selectCodeEditor("lab10.v", 684, 406); // ad
+selectCodeEditor("lab10.v", 741, 466); // ad
+selectCodeEditor("lab10.v", 737, 459); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 357, 464); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 622, 477); // ad
+selectCodeEditor("lab10.v", 454, 561); // ad
+// [GUI Memory]: 217 MB (+1625kb) [00:44:47]
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 717, 532); // ad
+// Elapsed time: 23 seconds
+selectCodeEditor("lab10.v", 180, 257); // ad
+selectCodeEditor("lab10.v", 87, 223); // ad
+selectCodeEditor("lab10.v", 87, 223, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 185, 372); // ad
+selectCodeEditor("lab10.v", 185, 372, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 273, 525); // ad
+// Elapsed time: 23 seconds
+selectCodeEditor("lab10.v", 376, 522); // ad
+selectCodeEditor("lab10.v", 376, 522, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 70, 425); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 208, 591); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// WARNING: HEventQueue.dispatchEvent() is taking  1532 ms.
+selectCodeEditor("lab10.v", 177, 308); // ad
+// Elapsed time: 34 seconds
+selectCodeEditor("lab10.v", 172, 312); // ad
+selectCodeEditor("lab10.v", 111, 387); // ad
+selectCodeEditor("lab10.v", 111, 387, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 135, 479); // ad
+selectCodeEditor("lab10.v", 135, 479, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 189, 539); // ad
+selectCodeEditor("lab10.v", 178, 535); // ad
+selectCodeEditor("lab10.v", 178, 535, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 243, 588); // ad
+selectCodeEditor("lab10.v", 243, 588, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 402, 588); // ad
+selectCodeEditor("lab10.v", 402, 588, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 91, 316); // ad
+selectCodeEditor("lab10.v", 91, 316, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 126, 505); // ad
+selectCodeEditor("lab10.v", 126, 505, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 226, 495); // ad
+selectCodeEditor("lab10.v", 226, 495, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 128, 620); // ad
+selectCodeEditor("lab10.v", 128, 620, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 282, 615); // ad
+selectCodeEditor("lab10.v", 282, 615, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 408, 620); // ad
+selectCodeEditor("lab10.v", 408, 620, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+typeControlKey(null, null, 'z');
+selectCodeEditor("lab10.v", 408, 620); // ad
+selectCodeEditor("lab10.v", 408, 620, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 530, 570); // ad
+selectCodeEditor("lab10.v", 294, 573); // ad
+// Elapsed time: 44 seconds
+selectCodeEditor("lab10.v", 112, 442); // ad
+selectCodeEditor("lab10.v", 112, 442, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 132, 430); // ad
+selectCodeEditor("lab10.v", 132, 430, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+// Elapsed time: 17 seconds
+selectCodeEditor("lab10.v", 384, 411); // ad
+selectCodeEditor("lab10.v", 152, 440); // ad
+selectCodeEditor("lab10.v", 152, 440, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 315, 518); // ad
+selectCodeEditor("lab10.v", 165, 433); // ad
+selectCodeEditor("lab10.v", 165, 433, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("lab10.v", 360, 414); // ad
+selectCodeEditor("lab10.v", 266, 439); // ad
+selectCodeEditor("lab10.v", 266, 439, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("lab10.v", 203, 428); // ad
+selectCodeEditor("lab10.v", 267, 171); // ad
+selectCodeEditor("lab10.v", 202, 167); // ad
+selectCodeEditor("lab10.v", 202, 167, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("lab10.v", 205, 268); // ad
+selectCodeEditor("lab10.v", 205, 268, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 205, 268); // ad
+selectCodeEditor("lab10.v", 339, 264); // ad
+selectCodeEditor("lab10.v", 322, 423); // ad
+selectCodeEditor("lab10.v", 353, 349); // ad
+selectCodeEditor("lab10.v", 353, 349, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 333, 465); // ad
+selectCodeEditor("lab10.v", 333, 465, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 74, 193); // ad
+selectCodeEditor("lab10.v", 650, 198); // ad
+selectCodeEditor("lab10.v", 336, 186); // ad
+selectCodeEditor("lab10.v", 1041, 254); // ad
+selectCodeEditor("lab10.v", 213, 187); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 282, 260); // ad
+selectCodeEditor("lab10.v", 161, 62); // ad
+selectCodeEditor("lab10.v", 161, 62, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 119, 68); // ad
+selectCodeEditor("lab10.v", 106, 71); // ad
+selectCodeEditor("lab10.v", 673, 151); // ad
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B
+selectCodeEditor("lab10.v", 215, 41); // ad
+selectCodeEditor("lab10.v", 243, 185); // ad
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 113, 251); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+typeControlKey(null, null, 'z');
+selectCodeEditor("lab10.v", 68, 318); // ad
+selectCodeEditor("lab10.v", 39, 282); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// WARNING: HEventQueue.dispatchEvent() is taking  4023 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1544 ms.
+// Elapsed time: 35 seconds
+selectCodeEditor("lab10.v", 130, 350); // ad
+selectCodeEditor("lab10.v", 130, 350, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 204, 372); // ad
+selectCodeEditor("lab10.v", 466, 416); // ad
+selectCodeEditor("lab10.v", 499, 427); // ad
+selectCodeEditor("lab10.v", 239, 434); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 205, 431); // ad
+selectCodeEditor("lab10.v", 205, 431, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 377, 443); // ad
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // W.d
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Cancel"); // JButton
+// Elapsed Time for: 'L.f': 51m:54s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'L.f': 51m:56s
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp with file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/lab10.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 7 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 28 17:01:37 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:01:37 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // f - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 10, true); // f - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 11, true); // f - Node
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 12, true); // f - Node
+// Elapsed time: 21 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g
+selectButton("OptionPane.button", "Cancel Process"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bq
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 267, 81); // ad
+selectCodeEditor("lab10.v", 247, 74); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 146, 98); // ad
+selectCodeEditor("lab10.v", 146, 98, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 572, 436); // ad
+selectCodeEditor("lab10.v", 821, 341); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 30, 471); // ad
+// WARNING: HEventQueue.dispatchEvent() is taking  1445 ms.
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 140, 471); // ad
+selectCodeEditor("lab10.v", 200, 467); // ad
+// Elapsed time: 59 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 14 seconds
+selectCodeEditor("lab10.v", 565, 485); // ad
+selectCodeEditor("lab10.v", 565, 485, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("lab10.v", 738, 532); // ad
+// Elapsed time: 26 seconds
+selectCodeEditor("lab10.v", 518, 536); // ad
+selectCodeEditor("lab10.v", 561, 486); // ad
+selectCodeEditor("lab10.v", 561, 486, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 186, 531); // ad
+selectCodeEditor("lab10.v", 186, 531, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("lab10.v", 250, 549); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("lab10.v", 30, 209); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 321, 485); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 84, 547); // ad
+selectCodeEditor("lab10.v", 84, 547, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("lab10.v", 233, 550); // ad
+selectCodeEditor("lab10.v", 310, 557); // ad
+selectCodeEditor("lab10.v", 310, 557, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 158, 485); // ad
+selectCodeEditor("lab10.v", 197, 488); // ad
+selectCodeEditor("lab10.v", 197, 488, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 151, 580); // ad
+selectCodeEditor("lab10.v", 151, 580, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 320, 584); // ad
+selectCodeEditor("lab10.v", 320, 584, false, false, false, false, true); // ad - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cstone.mem", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab10.v", 0); // o
+selectCodeEditor("lab10.v", 193, 589); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 377, 526); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 462, 552); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 14, 494); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+selectCodeEditor("lab10.v", 634, 482); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("lab10.v", 225, 347); // ad
+selectCodeEditor("lab10.v", 225, 347, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 322, 346); // ad
+// Elapsed time: 12 seconds
+selectCodeEditor("lab10.v", 374, 400); // ad
+selectCodeEditor("lab10.v", 374, 400, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("lab10.v", 210, 516); // ad
+selectCodeEditor("lab10.v", 210, 516, false, false, false, false, true); // ad - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 57m:54s
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("No Implementation Results Available"); // u
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Dec 28 17:07:31 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:07:31 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+// Elapsed Time for: 'L.f': 57m:58s
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,179 MB. GUI used memory: 126 MB. Current time: 12/28/23, 5:08:09 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 424 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq
+// Elapsed time: 90 seconds
+selectCodeEditor("lab10.v", 380, 495); // ad
+selectCodeEditor("lab10.v", 221, 529); // ad
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// 'ct' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton
+// Elapsed Time for: 'L.f': 01h:06m:49s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// Elapsed Time for: 'L.f': 01h:06m:51s
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp with file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/lab10.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 15 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Dec 28 17:16:39 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:16:39 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("lab10.v", 488, 131); // ad
+selectCodeEditor("lab10.v", 488, 131, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 443, 322); // ad
+selectCodeEditor("lab10.v", 443, 322, false, false, false, false, true); // ad - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 313 seconds
+selectCodeEditor("lab10.v", 605, 181); // ad
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 85 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // Q.a
+selectButton(PAResourceTtoZ.TouchpointSurveyDialog_NO, "No"); // a
+dismissDialog("Feedback Request"); // aq
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq
+// Elapsed time: 104 seconds
+selectCodeEditor("lab10.v", 644, 462); // ad
+typeControlKey((HResource) null, "lab10.v", 'c'); // ad
+typeControlKey(null, null, 'z');
+selectCodeEditor("lab10.v", 765, 243); // ad
+typeControlKey((HResource) null, "lab10.v", 'v'); // ad
+selectCodeEditor("lab10.v", 25, 280); // ad
+// Elapsed time: 30 seconds
+selectCodeEditor("lab10.v", 206, 373); // ad
+selectCodeEditor("lab10.v", 206, 373, false, false, false, false, true); // ad - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Cancel"); // JButton
+// Elapsed Time for: 'L.f': 01h:16m:39s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("Synthesis is Out-of-date"); // u
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp with file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/lab10.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:16m:41s
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 17 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Dec 28 17:26:31 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:26:31 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 201 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cstone.mem", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab10.v", 0); // o
+// Elapsed time: 202 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "cstone.mem", 1); // o
+selectCodeEditor("cstone.mem", 197, 168); // ad
+typeControlKey((HResource) null, "cstone.mem", 'v'); // ad
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("cstone.mem", 253, 483); // ad
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 74 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // Q.a
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bq
+typeControlKey((HResource) null, "cstone.mem", 'v'); // ad
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lab10.v", 0); // o
+selectCodeEditor("lab10.v", 586, 325); // ad
+selectCodeEditor("lab10.v", 586, 325, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("lab10.v", 202, 494); // ad
+selectCodeEditor("lab10.v", 202, 495, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 556, 480); // ad
+selectCodeEditor("lab10.v", 556, 480, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 577, 493); // ad
+selectCodeEditor("lab10.v", 577, 493, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("lab10.v", 174, 519); // ad
+selectCodeEditor("lab10.v", 174, 519, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("lab10.v", 376, 139); // ad
+selectCodeEditor("lab10.v", 376, 139, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 210, 164); // ad
+selectCodeEditor("lab10.v", 210, 164, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 381, 130); // ad
+// Elapsed time: 10 seconds
+selectCodeEditor("lab10.v", 576, 404); // ad
+selectCodeEditor("lab10.v", 576, 404, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 171, 434); // ad
+selectCodeEditor("lab10.v", 171, 434, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 240, 279); // ad
+selectCodeEditor("lab10.v", 243, 279, false, false, false, false, true); // ad - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("lab10.v", 233, 369); // ad
+selectCodeEditor("lab10.v", 233, 369, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("lab10.v", 247, 374); // ad
+selectCodeEditor("lab10.v", 247, 374, false, false, false, false, true); // ad - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,179 MB. GUI used memory: 112 MB. Current time: 12/28/23, 5:38:10 PM CST
+// Elapsed time: 40 seconds
+selectCodeEditor("lab10.v", 401, 409); // ad
+selectCodeEditor("lab10.v", 354, 451); // ad
+selectCodeEditor("lab10.v", 276, 326); // ad
+// Elapsed time: 10 seconds
+selectCodeEditor("lab10.v", 461, 307); // ad
+selectCodeEditor("lab10.v", 245, 317); // ad
+selectCodeEditor("lab10.v", 113, 480); // ad
+selectCodeEditor("lab10.v", 242, 458); // ad
+selectCodeEditor("lab10.v", 96, 251); // ad
+selectCodeEditor("lab10.v", 72, 284); // ad
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Cancel"); // JButton
+// Elapsed Time for: 'L.f': 01h:29m:28s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed Time for: 'L.f': 01h:29m:30s
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp with file C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/lab10.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 8 seconds
+dismissDialog("Launch Runs"); // cw
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Dec 28 17:39:12 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:39:12 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g
+selectButton("OptionPane.button", "Cancel Process"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bq
+// Elapsed time: 11 seconds
+selectCodeEditor("lab10.v", 96, 75); // ad
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 14, false); // f
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+dismissDialog("Save Project"); // W.d
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("No Implementation Results Available"); // u
+// Elapsed Time for: 'L.f': 01h:30m:19s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ct' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cw
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec 28 17:39:54 2023] Launched synth_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/synth_1/runme.log [Thu Dec 28 17:39:54 2023] Launched impl_1... Run output will be captured here: C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bq
+// Elapsed Time for: 'L.f': 01h:30m:21s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 167 seconds
+selectCodeEditor("lab10.v", 513, 474); // ad
+// Elapsed time: 153 seconds
+selectCodeEditor("lab10.v", 612, 425); // ad
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 101 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // Q.a
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // aP
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/riann/Downloads/fp_1227-20231228T080550Z-001/fp_1227/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'D' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bq
+// WARNING: HEventQueue.dispatchEvent() is taking  47591 ms.
